@@ -1,4 +1,6 @@
 Store::Application.routes.draw do
+  resources :vacation_carts
+
   resources :users
 
   resources :carts
